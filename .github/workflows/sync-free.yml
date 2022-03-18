@@ -34,7 +34,7 @@ jobs:
         uses: Yikun/hub-mirror-action@master
         if: env.dst_key
         with:
-          src: github/lxrcbw
+          src: github/3351200592
           dst: gitee/lxrcbw
           static_list: "scripts_Annyoo2021"
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
